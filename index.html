@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanzu Code Survey Form </title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <div class="title-logo">
+        <div class="grouped-logo">
+            <div id="Logo"><img src="./12139637kzc.png" alt="KanzuCode logo"></div>
+            <div id="Title">
+                <h1>KanzuCode Survey Form</h1>
+                <p>Take some time to fill in this form with your details.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="form-body">
+
+        <div class="survey-form-background">
+            <form>
+                <!-- Kanzu Code Form Details -->
+
+                <div class="name-container">
+                    <div>
+                        <label for="name" id="label-name">Name</label>
+                        <!-- Input Type Text-->
+                    </div>
+                    <div><input class="std-size" type="text" id="name" placeholder="Enter your name" /></div>
+                </div>
+
+                <div class="email-container">
+                    <div>
+                        <label for="email" id="label-email">Email</label>
+                        <!-- Input Type Email-->
+                    </div>
+                    <div><input class="std-size" type="email" id="email" placeholder="Enter your email" /></div>
+                </div>
+
+                <div class="age-container">
+                    <div>
+                        <label for="age" id="label-age">Age(Optional)</label>
+                    </div>
+                    <div><input class="std-size" type="text" id="age" placeholder="Enter your age" />
+                    </div>
+                </div>
+
+
+                <div class="select-role">
+                    <div>
+                        <label for="role" id="label-role">
+                            What best describes your current Role?
+                        </label>
+                    </div>
+                    <!-- Dropdown options -->
+                    <div>
+                        <select class="std-size" name="role" id="role">
+                            <option value="" disabled selected>Select current role</option>
+                            <option value="student">Student</option>
+                            <option value="Full time learner">Full time learner</option>
+                            <option value="Employed">Employed</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="recommend">
+                    <div> <label>Would you recommend the KCF Bootcamp to a friend?</label></div>
+
+                    <div>
+                        <!-- Input Type Radio Button -->
+                        <div><label for="recommed-1">
+                            <input type="radio"
+                                   id="recommed-1"
+                                   name="recommed">Definitely</input>
+                        </label></div>
+                        <div><label for="recommed-2">
+                            <input type="radio"
+                                   id="recommed-2"
+                                   name="recommed">Maybe</input></div>
+                        <div></label>
+                            <label for="recommed-3">
+                            <input type="radio"
+                                   id="recommed-3"
+                                   name="recommed">Not Sure</input>
+                        </label></div>
+                    </div>
+                </div>
+
+                <div class="improved">
+                    <div><label>What would you like to see improved in Bootcamp? (check all that apply)</label></div>
+                    <div>
+                        <!-- Input Type Checkbox -->
+                        <div><label for="inp-1">
+                            <input type="checkbox"
+                                   name="inp">Front-end-projects</input></label></div>
+                        <div><label for="inp-2">
+                            <input type="checkbox"
+                                   name="inp">Back-end-projects</input></label></div>
+                        <label for="inp-3">
+                        <div><input type="checkbox"
+                            name="inp">Data-visualization</input></label></div>
+                    <div><label for="inp-4">
+                        <input type="checkbox"
+                               name="inp">Pair-programming sessions</input></label></div>
+                    <div><label for="inp-5">
+                        <input type="checkbox"
+                               name="inp">Coding Challenges</input></label></div>
+                </div>
+        </div>
+
+        <div class="comments">
+            <div><label for="comment">
+                        Any comments or suggestions
+                    </label>
+            </div>
+            <!-- multi-line text input control -->
+            <div><textarea name="comment" id="comment" placeholder="Enter your comment"></textarea></div>
+        </div>
+        <!-- Multi-line Text Input Control -->
+        <button type="submit" value="submit" class="button-submit">Submit</button>
+        </form>
+
+    </div>
+    </div>
+
+
+
+</body>
+
+</html>
