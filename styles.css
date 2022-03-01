@@ -9,6 +9,8 @@ body {
 
 .std-size {
     width: 90%;
+    height: 30px;
+    font-size: auto;
 }
 
 label {
@@ -67,4 +69,31 @@ textarea {
     width: 90%;
     text-align: center;
     color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .grouped-logo {
+        flex-direction: column;
+        text-align: center;
+    }
+    .survey-form-background {
+        width: 100%;
+    }
+    .std-size {
+        height: 30px;
+        font-size: 15px;
+    }
+    @media screen and (max-width: 480px) {
+        .grouped-logo {
+            flex-direction: column;
+            text-align: center;
+        }
+        .survey-form-background {
+            width: 100%;
+        }
+        .std-size {
+            height: 30px;
+            font-size: 15px;
+        }
+    }
 }
